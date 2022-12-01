@@ -8,6 +8,7 @@ body{
     margin: 0;
     height: 100vh;
     width: auto;
+    background-color: #000000;
 }
 h1{
     font-family: Formula1-Regular, sans-serif;
@@ -24,39 +25,93 @@ h1{
     margin-left: 30px;
   }
   .ferrari{
+    color: #DC0000;
     animation: ferrari 4s;
     animation-fill-mode: forwards;
   }
   .aston{
+    color: #006F62;
     animation: aston 4s;
     animation-fill-mode: forwards;
 }
 .merc{
-    
+    color: #00D2BE;
+    animation: merc 4s;
+    animation-fill-mode: forwards;
 }
 .williams{
-    
+    color: #005AFF;
+    animation: williams 4s;
+    animation-fill-mode: forwards;
 }
 .alpha{
-
+    color: #2B4562;
+    animation: alpha 4s;
+    animation-fill-mode: forwards;
 }
 .mclaren{
-    
+    color: #FF8700;
+    animation: mclaren 4s;
+    animation-fill-mode: forwards;
 }
 .haas{
-    
+    color: #ffffff;
+    animation: haas 4s;
+    animation-fill-mode: forwards;
 }
 .alfa{
-    
+    color: #900000;
+    animation: alfa 4s;
+    animation-fill-mode: forwards;
 }
 .alpine{
-    
+    color: #0090FF;
+    animation: alpine 4s;
+    animation-fill-mode: forwards;
 }
 .redbull{
-    
+    color: #0600EF;
+    animation: redbull 4s;
+    animation-fill-mode: forwards;
 }
 .F{
-animation: F 4.5s;
+animation: F 5.5s;
+animation-fill-mode: forwards;
+}
+.O{
+animation: O 5.5s;
+animation-fill-mode: forwards;
+}
+.R{
+animation: R 5.5s;
+animation-fill-mode: forwards;
+}
+.M{
+animation: M 5.5s;
+animation-fill-mode: forwards;
+}
+.U{
+animation: U 5.5s;
+animation-fill-mode: forwards;
+}
+.L{
+animation: L 5.5s;
+animation-fill-mode: forwards;
+}
+.A{
+animation: A 5.5s;
+animation-fill-mode: forwards;
+}
+.O2{
+animation: O2 5.5s;
+animation-fill-mode: forwards;
+}
+.N{
+animation: N 5.5s;
+animation-fill-mode: forwards;
+}
+.E{
+animation: E 5.5s;
 animation-fill-mode: forwards;
 }
 @keyframes ferrari{
@@ -74,57 +129,138 @@ animation-fill-mode: forwards;
 @keyframes merc{
     0%{}
     100%{
-        transform: translateY(300px);
+        transform: translateY(236px);
     }
 }
 @keyframes williams{
     0%{}
     100%{
-        transform: translateY(300px);
+        transform: translateY(108.5px);
     }
 }
 @keyframes alpha{
     0%{}
     100%{
-        transform: translateY(300px);
+        transform: translateY(77.5px);
     }
 }
 @keyframes mclaren{
     0%{}
     100%{
-        transform: translateY(300px);
+        transform: translateY(237.5px);
     }
 }
 @keyframes haas{
     0%{}
     100%{
-        transform: translateY(300px);
+        transform: translateY(269px);
     }
 }
 @keyframes alfa{
     0%{}
     100%{
-        transform: translateY(300px);
+        transform: translateY(141px);
     }
 }
 @keyframes alpine{
     0%{}
     100%{
-        transform: translateY(300px);
+        transform: translateY(173px);
     }
 }
 @keyframes redbull{
     0%{}
     100%{
-        transform: translateY(300px);
+        transform: translateY(269.5px);
     }
 }
 @keyframes F{
     0%{}
-    95%{
-        color: black;
+    80%{
+        color: #DC0000;
     }
     100%{
-        color: red;
+        color: white;
+    }
+}
+@keyframes O{
+    0%{}
+    80%{
+        color: #006F62;
+    }
+    100%{
+        color: white;
+    }
+}
+@keyframes R{
+    0%{}
+    80%{
+        color: #00D2BE;
+    }
+    100%{
+        color: white;
+    }
+}
+@keyframes M{
+    0%{}
+    80%{
+        color: #005AFF;
+    }
+    100%{
+        color: white;
+    }
+}
+@keyframes U{
+    0%{}
+    80%{
+        color: #2B4562;
+    }
+    100%{
+        color: white;
+    }
+}
+@keyframes L{
+    0%{}
+    80%{
+        color: #FF8700;
+    }
+    100%{
+        color: white;
+    }
+}
+@keyframes A{
+    0%{}
+    80%{
+        color: #ffffff;
+    }
+    100%{
+        color: white;
+    }
+}
+@keyframes O2{
+    0%{}
+    80%{
+        color: #900000;
+    }
+    100%{
+        color: white;
+    }
+}
+@keyframes N{
+    0%{}
+    80%{
+        color: #0090FF;
+    }
+    100%{
+        color: white;
+    }
+}
+@keyframes E{
+    0%{}
+    80%{
+        color: #0600EF;
+    }
+    100%{
+        color: white;
     }
 }
