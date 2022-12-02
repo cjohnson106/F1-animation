@@ -55,7 +55,7 @@ h1{
     animation-fill-mode: forwards;
 }
 .haas{
-    color: #ffffff;
+    color: #a3a3a3;
     animation: haas 4s;
     animation-fill-mode: forwards;
 }
@@ -231,7 +231,7 @@ animation-fill-mode: forwards;
 @keyframes A{
     0%{}
     80%{
-        color: #ffffff;
+        color: #a3a3a3;
     }
     100%{
         color: white;
